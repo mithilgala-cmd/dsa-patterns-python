@@ -48,3 +48,5 @@ Target: 300 problems before 2027 placements.
 ---
 
 Consistency > Motivation.
+
+Starting my DSA journey on my 21st birthday!
