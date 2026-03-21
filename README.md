@@ -14,6 +14,20 @@ Target: 300 problems before 2027 placements.
 
 ---
 
+## 🛠️ Testing Setup
+
+This repository uses `pytest` to automatically test solutions. Each problem file (e.g., `arrays/two_sum.py`) has a corresponding test file in the `tests/` directory (e.g., `tests/arrays/test_two_sum.py`).
+
+**How to run tests:**
+```bash
+pip install -r requirements.txt
+python -m pytest
+```
+
+Use `template.py` as a starting point for any new algorithms you want to implement!
+
+---
+
 ## 🧠 Patterns Covered
 
 - [ ] Arrays
@@ -26,6 +40,13 @@ Target: 300 problems before 2027 placements.
 - [ ] Trees
 - [ ] Backtracking
 - [ ] Dynamic Programming
+- [ ] Graphs
+- [ ] Heap / Priority Queue
+- [ ] Greedy
+- [ ] Intervals
+- [ ] Trie
+- [ ] Bit Manipulation
+- [ ] Math & Geometry
 
 ---
 
