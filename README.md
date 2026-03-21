@@ -30,23 +30,23 @@ Use `template.py` as a starting point for any new algorithms you want to impleme
 
 ## 🧠 Patterns Covered
 
-- [ ] Arrays
-- [ ] Hashing
-- [ ] Two Pointers
-- [ ] Sliding Window
-- [ ] Stack
-- [ ] Linked List
-- [ ] Binary Search
-- [ ] Trees
-- [ ] Backtracking
-- [ ] Dynamic Programming
-- [ ] Graphs
-- [ ] Heap / Priority Queue
-- [ ] Greedy
-- [ ] Intervals
-- [ ] Trie
-- [ ] Bit Manipulation
-- [ ] Math & Geometry
+- [ ] [Arrays](./arrays/README.md)
+- [ ] [Hashing](./hashing/README.md)
+- [ ] [Two Pointers](./two_pointers/README.md)
+- [ ] [Sliding Window](./sliding_window/README.md)
+- [ ] [Stack](./stack/README.md)
+- [ ] [Linked List](./linked_list/README.md)
+- [ ] [Binary Search](./binary_search/README.md)
+- [ ] [Trees](./trees/README.md)
+- [ ] [Backtracking](./backtracking/README.md)
+- [ ] [Dynamic Programming](./dynamic_programming/README.md)
+- [ ] [Graphs](./graphs/README.md)
+- [ ] [Heap / Priority Queue](./heap/README.md)
+- [ ] [Greedy](./greedy/README.md)
+- [ ] [Intervals](./intervals/README.md)
+- [ ] [Trie](./trie/README.md)
+- [ ] [Bit Manipulation](./bit_manipulation/README.md)
+- [ ] [Math & Geometry](./math_geometry/README.md)
 
 ---
 
