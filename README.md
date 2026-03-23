@@ -70,4 +70,4 @@ Use `template.py` as a starting point for any new algorithms you want to impleme
 
 Consistency > Motivation.
 
-Starting my DSA journey on my 21st birthday!
+Starting my DSA journey very soon, need to lock in!
