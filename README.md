@@ -133,6 +133,16 @@ This is a personal learning repo, but suggestions and improvements are always we
 
 ---
 
+---
+
+## 🏆 Achievements & Milestones
+
+- 🎯 Selected for HackWithInfy 2026 Qualifier Round by Infosys
+- 🚀 Building strong DSA foundations for product-based companies
+- 📈 Consistently solving problems with a pattern-based approach
+
+---
+
 ## ⭐ If You Find This Useful
 
 Consider giving this repo a star ⭐ - it helps keep the motivation high!
