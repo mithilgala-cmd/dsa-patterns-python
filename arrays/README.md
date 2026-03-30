@@ -1,26 +1,127 @@
-# Arrays 🧠
+# 🧠 Arrays
 
-## 📌 Overview
-A contiguous area of memory consisting of equal-size elements indexed by contiguous integers. Crucial for foundational solving.
+## 📌 What is an Array?
+An **array** is a linear data structure that stores elements in a **contiguous block of memory**, allowing:
+- **O(1)** access via index
+- Efficient traversal
+- Predictable memory usage
+
+👉 Arrays are the **foundation of most DSA problems** and often appear in interviews.
 
 ---
 
-## ⏳ Complexity Analysis
-- **Time Complexity:** Usually depends on the exact algorithm. Try to identify standard times (e.g., $O(N)$ for 1D arrays, $O(V+E)$ for graphs).
-- **Space Complexity:** Always consider auxiliary space and space used by recursion stack (e.g., $O(N)$ for recursion).
+## 🎯 Why Arrays Matter
+- Base for advanced structures (strings, matrices, heaps)
+- Used in **sliding window, prefix sum, two pointers**
+- Very common in coding interviews (easy → medium → hard progression)
 
 ---
 
-## 📝 Classic Problems to Solve
-We recommend beginning with these introductory problems for the pattern:
+## ⚙️ Core Operations & Complexity
+
+| Operation        | Time Complexity |
+|----------------|---------------|
+| Access         | O(1)          |
+| Search         | O(N)          |
+| Insert (end)   | O(1) amortized|
+| Insert (middle)| O(N)          |
+| Delete         | O(N)          |
+
+---
+
+## 🧩 Key Patterns to Master
+
+### 1. Two Pointers
+Used when:
+- Array is sorted
+- Need pair/triplet conditions
+
+**Example Problems:**
+- Two Sum (sorted)
+- Container With Most Water
+
+---
+
+### 2. Sliding Window
+Used for:
+- Subarrays
+- Maximum/minimum range problems
+
+**Example Problems:**
+- Maximum Subarray
+- Longest Substring Without Repeating Characters
+
+---
+
+### 3. Prefix Sum
+Used when:
+- Range sum queries
+- Cumulative calculations
+
+**Example Problems:**
+- Subarray Sum Equals K
+
+---
+
+### 4. Kadane’s Algorithm
+Used for:
+- Maximum subarray problems
+
+---
+
+### 5. Hashing with Arrays
+Used for:
+- Fast lookup (O(1))
+
+---
+
+## ⏳ Complexity Insights
+
+- Most array problems aim for **O(N)** or **O(N log N)**
+- Avoid brute force (**O(N²)**) unless necessary
+- Always think:
+  - Can I reduce nested loops?
+  - Can I use extra space for optimization?
+
+---
+
+## 📝 Must-Do Problems (Interview Focused)
+
+### 🟢 Easy
 - Two Sum
-- Best Time to Buy and Sell Stock
 - Contains Duplicate
+- Maximum Subarray
+
+### 🟡 Medium
+- Best Time to Buy and Sell Stock
+- Product of Array Except Self
+- 3Sum
+
+### 🔴 Hard
+- Trapping Rain Water
+- First Missing Positive
 
 ---
 
-## 🚀 How to Practice
-1. Duplicate the root `template.py` file into this directory for your new problem.
-2. Implement your logic with appropriate type hints and docstrings.
-3. Write a test case in the corresponding `tests/` folder.
-4. Run `python -m pytest` from the root directory to verify your logic!
+## 🚀 How to Practice (Optimized Strategy)
+
+1. **Understand the pattern first**
+2. Solve **brute force → optimize**
+3. Write clean, readable code
+4. Analyze:
+   - Time complexity
+   - Space complexity
+5. Revisit after 2–3 days (spaced repetition)
+
+---
+
+## 🧪 Project Workflow
+
+1. Copy `template.py`
+2. Implement solution with:
+   - Type hints
+   - Edge case handling
+3. Add test cases in `tests/`
+4. Run:
+   ```bash
+   python -m pytest
