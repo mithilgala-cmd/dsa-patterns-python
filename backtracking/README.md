@@ -24,3 +24,8 @@ We recommend beginning with these introductory problems for the pattern:
 2. Implement your logic with appropriate type hints and docstrings.
 3. Write a test case in the corresponding `tests/` folder.
 4. Run `python -m pytest` from the root directory to verify your logic!
+
+---
+
+## Goal
+Understand the concept of backtracking.
