@@ -101,6 +101,8 @@ Used for:
 - Trapping Rain Water
 - First Missing Positive
 
+### Practice more questions 
+
 ---
 
 ## 🚀 How to Practice (Optimized Strategy)
