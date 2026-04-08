@@ -19,7 +19,7 @@ We recommend beginning with these introductory problems for the pattern:
 
 ---
 
-## PRACTICE MORE QUESTIONS
+## PRACTICE MORE QUESTIONS DAILY!
 
 ---
 
