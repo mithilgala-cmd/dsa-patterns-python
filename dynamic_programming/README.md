@@ -11,6 +11,10 @@ Solving complex problems by breaking them down into overlapping subproblems and 
 
 ---
 
+## PRACTICE MORE QUESTIONS
+
+---
+
 ## 📝 Classic Problems to Solve
 We recommend beginning with these introductory problems for the pattern:
 - Climbing Stairs
