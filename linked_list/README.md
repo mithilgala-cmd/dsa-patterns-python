@@ -19,6 +19,10 @@ We recommend beginning with these introductory problems for the pattern:
 
 ---
 
+## PRACTICE MORE QUESTIONS
+
+---
+
 ## 🚀 How to Practice
 1. Duplicate the root `template.py` file into this directory for your new problem.
 2. Implement your logic with appropriate type hints and docstrings.
