@@ -1,17 +1,20 @@
-from typing import List
+from typing import Dict, List
+
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         """
-        Given an array of integers nums and an integer target, 
-        return indices of the two numbers such that they add up to target.
+        Return indices of two values whose sum equals target.
+
         Time Complexity: O(n)
         Space Complexity: O(n)
         """
-        num_map = {}
-        for i, num in enumerate(nums):
-            complement = target - num
-            if complement in num_map:
-                return [num_map[complement], i]
-            num_map[num] = i
+        seen: Dict[int, int] = {}
+
+        for idx, value in enumerate(nums):
+            complement = target - value
+            if complement in seen:
+                return [seen[complement], idx]
+            seen[value] = idx
+
         return []

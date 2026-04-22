@@ -1,15 +1,17 @@
-from typing import List, Optional, Dict, Tuple
+﻿from typing import Any
+
 
 class Solution:
-    def solve(self) -> None:
+    def solve(self, *args: Any, **kwargs: Any) -> Any:
         """
-        Problem description goes here.
+        Implement the problem logic.
+
         Time Complexity: O(?)
         Space Complexity: O(?)
         """
-        pass
+        raise NotImplementedError("Implement solve() for this problem")
+
 
 if __name__ == "__main__":
-    solution = Solution()
-    # Write simple assertions to test your solution directly here
-    print("Template running...")
+    # Replace with real assertions when solving a problem.
+    print("Template is ready")

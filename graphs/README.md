@@ -1,31 +1,29 @@
-# Graphs 🧠
+﻿# Graphs
 
-## 📌 Overview
-Nodes connected by edges. Traversed via BFS/DFS. Algorithms include Dijkstra, Union-Find.
+## Overview
+Model relationships as nodes and edges, then traverse or optimize paths.
 
----
+## Pattern signals
+- Connectivity questions
+- Cycle detection needed
+- Shortest path required
 
-## ⏳ Complexity Analysis
-- **Time Complexity:** Usually depends on the exact algorithm. Try to identify standard times (e.g., $O(N)$ for 1D arrays, $O(V+E)$ for graphs).
-- **Space Complexity:** Always consider auxiliary space and space used by recursion stack (e.g., $O(N)$ for recursion).
+## Complexity habits
+- Start with a brute-force baseline and write down its complexity.
+- Target O(n) or O(n log n) when possible.
+- Note extra memory trade-offs clearly in the solution docstring.
 
----
+## Starter problems
+- [ ] Number of Islands
+- [ ] Clone Graph
+- [ ] Course Schedule
 
-## 📝 Classic Problems to Solve
-We recommend beginning with these introductory problems for the pattern:
-- Number of Islands
-- Clone Graph
-- Course Schedule
+## Progress log
+| Date | Problem | Difficulty | Status | Notes |
+| ---- | ------- | ---------- | ------ | ----- |
 
----
-
-## 🚀 How to Practice
-1. Duplicate the root `template.py` file into this directory for your new problem.
-2. Implement your logic with appropriate type hints and docstrings.
-3. Write a test case in the corresponding `tests/` folder.
-4. Run `python -m pytest` from the root directory to verify your logic!
-
----
-
-## 2026 GOAL :
-Practice graph
+## How to add a problem in this folder
+1. Run: python scripts/create_problem.py --pattern graphs --problem your_problem_name
+2. Implement Solution.solve() in the generated module.
+3. Replace the placeholder test with real test cases.
+4. Run python -m pytest from repository root.

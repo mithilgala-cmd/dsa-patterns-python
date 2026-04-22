@@ -1,30 +1,29 @@
-# Two Pointers 🧠
+﻿# Two Pointers
 
-## 📌 Overview
-Using two pointers to iterate through data. Excellent for sorted arrays or sequences.
+## Overview
+Coordinate two indices to reduce nested loops and scan efficiently.
 
----
+## Pattern signals
+- Input is sorted or can be sorted
+- Need pair or triplet constraints
+- Need in-place partitioning
 
-## ⏳ Complexity Analysis
-- **Time Complexity:** Usually depends on the exact algorithm. Try to identify standard times (e.g., $O(N)$ for 1D arrays, $O(V+E)$ for graphs).
-- **Space Complexity:** Always consider auxiliary space and space used by recursion stack (e.g., $O(N)$ for recursion).
+## Complexity habits
+- Start with a brute-force baseline and write down its complexity.
+- Target O(n) or O(n log n) when possible.
+- Note extra memory trade-offs clearly in the solution docstring.
 
----
+## Starter problems
+- [ ] Valid Palindrome
+- [ ] 3Sum
+- [ ] Container With Most Water
 
-## 📝 Classic Problems to Solve
-We recommend beginning with these introductory problems for the pattern:
-- Valid Palindrome
-- 3Sum
-- Container With Most Water
+## Progress log
+| Date | Problem | Difficulty | Status | Notes |
+| ---- | ------- | ---------- | ------ | ----- |
 
----
-
-## PRACTICE LEETCODE QUESTIONS!
-
----
-
-## 🚀 How to Practice
-1. Duplicate the root `template.py` file into this directory for your new problem.
-2. Implement your logic with appropriate type hints and docstrings.
-3. Write a test case in the corresponding `tests/` folder.
-4. Run `python -m pytest` from the root directory to verify your logic!
+## How to add a problem in this folder
+1. Run: python scripts/create_problem.py --pattern two_pointers --problem your_problem_name
+2. Implement Solution.solve() in the generated module.
+3. Replace the placeholder test with real test cases.
+4. Run python -m pytest from repository root.
