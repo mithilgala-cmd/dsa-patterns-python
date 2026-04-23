@@ -1,4 +1,4 @@
-﻿# Backtracking
+# Backtracking
 
 ## Overview
 Depth-first search over decision trees with undo steps.

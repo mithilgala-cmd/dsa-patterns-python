@@ -1,4 +1,4 @@
-﻿# Bit Manipulation
+# Bit Manipulation
 
 ## Overview
 Use bitwise operations to optimize checks, counting, and state transitions.

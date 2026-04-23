@@ -1,4 +1,4 @@
-﻿# Heap
+# Heap
 
 ## Overview
 Maintain top-k or min/max priority elements efficiently.

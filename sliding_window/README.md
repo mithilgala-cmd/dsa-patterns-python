@@ -1,4 +1,4 @@
-﻿# Sliding Window
+# Sliding Window
 
 ## Overview
 Maintain a dynamic contiguous range with incremental updates.

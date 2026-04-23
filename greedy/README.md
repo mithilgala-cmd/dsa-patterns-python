@@ -1,4 +1,4 @@
-﻿# Greedy
+# Greedy
 
 ## Overview
 Choose locally optimal decisions that lead to global optimum under specific constraints.

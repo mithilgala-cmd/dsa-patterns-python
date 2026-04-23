@@ -1,4 +1,4 @@
-﻿# Arrays
+# Arrays
 
 ## Overview
 Linear collections accessed by index. Core base for many interview problems.

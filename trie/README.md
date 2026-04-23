@@ -1,4 +1,4 @@
-﻿# Trie
+# Trie
 
 ## Overview
 Prefix tree for efficient string insert/search/prefix operations.

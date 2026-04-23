@@ -1,4 +1,4 @@
-﻿# Hashing
+# Hashing
 
 ## Overview
 Use hash maps/sets for constant-time lookup and counting.

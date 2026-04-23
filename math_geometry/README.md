@@ -1,4 +1,4 @@
-﻿# Math and Geometry
+# Math and Geometry
 
 ## Overview
 Use numeric properties and geometric invariants to simplify computation.

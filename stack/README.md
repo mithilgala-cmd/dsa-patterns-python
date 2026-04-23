@@ -1,4 +1,4 @@
-﻿# Stack
+# Stack
 
 ## Overview
 LIFO structure for parsing, monotonic constraints, and undo-style logic.

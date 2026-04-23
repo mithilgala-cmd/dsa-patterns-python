@@ -1,4 +1,4 @@
-﻿# Linked List
+# Linked List
 
 ## Overview
 Pointer-based sequence operations and in-place node manipulation.

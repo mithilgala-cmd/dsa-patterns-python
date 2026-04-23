@@ -1,4 +1,4 @@
-﻿# Trees
+# Trees
 
 ## Overview
 Hierarchical structures solved mainly with DFS or BFS traversal patterns.

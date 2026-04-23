@@ -1,4 +1,4 @@
-﻿# Graphs
+# Graphs
 
 ## Overview
 Model relationships as nodes and edges, then traverse or optimize paths.

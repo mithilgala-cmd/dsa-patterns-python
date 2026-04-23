@@ -1,4 +1,4 @@
-﻿# Binary Search
+# Binary Search
 
 ## Overview
 Search on sorted or monotonic answer spaces in O(log n).

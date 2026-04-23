@@ -1,10 +1,9 @@
-﻿"""Scaffold a new DSA problem module and test file."""
+"""Scaffold a new DSA problem module and test file."""
 
 from __future__ import annotations
 
 import argparse
 from pathlib import Path
-
 
 VALID_PATTERNS = {
     "arrays",
@@ -62,9 +61,21 @@ def main() -> None:
 
     test_dir.mkdir(parents=True, exist_ok=True)
 
-    module_content = f'''from typing import Any\n\n\nclass Solution:\n    def solve(self, *args: Any, **kwargs: Any) -> Any:\n        """Describe the problem and complexity here."""\n        raise NotImplementedError("Implement solve()")\n'''
+    module_content = (
+        "from typing import Any\n\n\n"
+        "class Solution:\n"
+        "    def solve(self, *args: Any, **kwargs: Any) -> Any:\n"
+        '        """Describe the problem and complexity here."""\n'
+        '        raise NotImplementedError("Implement solve()")\n'
+    )
 
-    test_content = f'''from {pattern}.{problem} import Solution\n\n\ndef test_{problem}_placeholder() -> None:\n    """Replace this with real test cases."""\n    solution = Solution()\n    assert hasattr(solution, "solve")\n'''
+    test_content = (
+        f"from {pattern}.{problem} import Solution\n\n\n"
+        f"def test_{problem}_placeholder() -> None:\n"
+        '    """Replace this with real test cases."""\n'
+        "    solution = Solution()\n"
+        '    assert hasattr(solution, "solve")\n'
+    )
 
     write_if_missing(problem_path, module_content)
     write_if_missing(test_path, test_content)

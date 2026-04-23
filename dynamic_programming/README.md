@@ -1,4 +1,4 @@
-﻿# Dynamic Programming
+# Dynamic Programming
 
 ## Overview
 Solve overlapping subproblems with memoization or tabulation.

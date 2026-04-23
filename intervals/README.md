@@ -1,4 +1,4 @@
-﻿# Intervals
+# Intervals
 
 ## Overview
 Sort and merge ranges while tracking overlap rules.

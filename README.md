@@ -1,13 +1,46 @@
-﻿# DSA Patterns in Python
+# DSA Patterns in Python
 
-Pattern-first practice repository for Data Structures and Algorithms in Python.
+Pattern-first interview preparation repository for Data Structures and Algorithms in Python.
 
-## Goal
-- Build strong interview-ready problem-solving habits.
-- Track progress pattern by pattern.
-- Keep every solution testable with `pytest`.
+## Placement-ready stack
+- `pytest` for correctness
+- `ruff` for lint + formatting
+- `mypy` for type safety
+- `pre-commit` for local quality gates
+- GitHub Actions CI for push/PR validation
 
-## Repository layout
+## Quick start
+```bash
+pip install -r requirements.txt
+python -m pytest
+python -m ruff check .
+python -m mypy .
+```
+
+## Daily workflow
+1. Pick a pattern and one problem.
+2. Solve in the pattern folder.
+3. Add or update tests in `tests/<pattern>/`.
+4. Run quality checks.
+5. Log result in `problem_tracker.csv`.
+6. Revisit due problems from `python scripts/revision_queue.py`.
+
+## Commands
+```bash
+# Generate new problem + test files
+python scripts/create_problem.py --pattern arrays --problem contains_duplicate
+
+# Show due revisions
+python scripts/revision_queue.py
+
+# Run full local quality suite
+python -m ruff check .
+python -m ruff format --check .
+python -m mypy .
+python -m pytest
+```
+
+## Repo structure
 ```text
 arrays/
 backtracking/
@@ -27,50 +60,39 @@ trees/
 trie/
 two_pointers/
 
+interview_notes/
+scripts/
 tests/
-  arrays/
-  backtracking/
-  ...
+problem_tracker.csv
 ```
 
-## Quick start
-```bash
-pip install -r requirements.txt
-python -m pytest
-```
+## Solved starter set
+Each pattern now has at least one solved starter problem with tests.
 
-## Add a new problem
-Use the scaffold script:
-```bash
-python scripts/create_problem.py --pattern arrays --problem contains_duplicate
-```
+- Arrays: `two_sum.py`
+- Backtracking: `subsets.py`
+- Binary Search: `binary_search.py`
+- Bit Manipulation: `single_number.py`
+- Dynamic Programming: `climbing_stairs.py`
+- Graphs: `number_of_islands.py`
+- Greedy: `jump_game.py`
+- Hashing: `valid_anagram.py`
+- Heap: `kth_largest_element.py`
+- Intervals: `merge_intervals.py`
+- Linked List: `reverse_linked_list.py`
+- Math and Geometry: `rotate_image.py`
+- Sliding Window: `best_time_to_buy_sell_stock.py`
+- Stack: `valid_parentheses.py`
+- Trees: `maximum_depth_binary_tree.py`
+- Trie: `implement_trie.py`
+- Two Pointers: `valid_palindrome.py`
 
-This command creates:
-- `<pattern>/<problem>.py`
-- `tests/<pattern>/test_<problem>.py`
+## Placement notes
+- Fast revision notes: `interview_notes/pattern_quick_notes.md`
+- Revision schedule: `interview_notes/revision_system.md`
+- Mock practice template: `interview_notes/mock_round_checklist.md`
 
-## Patterns covered
-- [x] [Arrays](./arrays/README.md)
-- [x] [Hashing](./hashing/README.md)
-- [x] [Two Pointers](./two_pointers/README.md)
-- [x] [Sliding Window](./sliding_window/README.md)
-- [x] [Stack](./stack/README.md)
-- [x] [Linked List](./linked_list/README.md)
-- [x] [Binary Search](./binary_search/README.md)
-- [x] [Trees](./trees/README.md)
-- [x] [Backtracking](./backtracking/README.md)
-- [x] [Dynamic Programming](./dynamic_programming/README.md)
-- [x] [Graphs](./graphs/README.md)
-- [x] [Heap](./heap/README.md)
-- [x] [Greedy](./greedy/README.md)
-- [x] [Intervals](./intervals/README.md)
-- [x] [Trie](./trie/README.md)
-- [x] [Bit Manipulation](./bit_manipulation/README.md)
-- [x] [Math and Geometry](./math_geometry/README.md)
-
-## Recommended workflow
-1. Pick one pattern.
-2. Solve 2-3 easy problems, then medium, then hard.
-3. Write tests for edge cases immediately.
-4. Revisit solved problems after 2-3 days.
-5. Track mistakes and recurring tricks in each pattern README.
+## CI
+Workflow file: `.github/workflows/ci.yml`
+- Triggered on push to `main` and on pull requests.
+- Runs lint, formatting check, type check, and tests.

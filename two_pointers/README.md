@@ -1,4 +1,4 @@
-﻿# Two Pointers
+# Two Pointers
 
 ## Overview
 Coordinate two indices to reduce nested loops and scan efficiently.
