@@ -14,7 +14,7 @@ Use numeric properties and geometric invariants to simplify computation.
 - Note extra memory trade-offs clearly in the solution docstring.
 
 ## Starter problems
-- [ ] Rotate Image
+- [x] Rotate Image
 - [ ] Spiral Matrix
 - [ ] Pow(x, n)
 
@@ -24,6 +24,6 @@ Use numeric properties and geometric invariants to simplify computation.
 
 ## How to add a problem in this folder
 1. Run: python scripts/create_problem.py --pattern math_geometry --problem your_problem_name
-2. Implement Solution.solve() in the generated module.
+2. Implement `class Solution` method(s) in the generated module.
 3. Replace the placeholder test with real test cases.
 4. Run python -m pytest from repository root.

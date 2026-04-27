@@ -14,7 +14,7 @@ Pointer-based sequence operations and in-place node manipulation.
 - Note extra memory trade-offs clearly in the solution docstring.
 
 ## Starter problems
-- [ ] Reverse Linked List
+- [x] Reverse Linked List
 - [ ] Merge Two Sorted Lists
 - [ ] Linked List Cycle
 
@@ -24,6 +24,6 @@ Pointer-based sequence operations and in-place node manipulation.
 
 ## How to add a problem in this folder
 1. Run: python scripts/create_problem.py --pattern linked_list --problem your_problem_name
-2. Implement Solution.solve() in the generated module.
+2. Implement `class Solution` method(s) in the generated module.
 3. Replace the placeholder test with real test cases.
 4. Run python -m pytest from repository root.

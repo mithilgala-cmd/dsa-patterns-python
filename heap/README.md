@@ -14,7 +14,7 @@ Maintain top-k or min/max priority elements efficiently.
 - Note extra memory trade-offs clearly in the solution docstring.
 
 ## Starter problems
-- [ ] Kth Largest Element in a Stream
+- [x] Kth Largest Element
 - [ ] Last Stone Weight
 - [ ] Find Median from Data Stream
 
@@ -24,6 +24,6 @@ Maintain top-k or min/max priority elements efficiently.
 
 ## How to add a problem in this folder
 1. Run: python scripts/create_problem.py --pattern heap --problem your_problem_name
-2. Implement Solution.solve() in the generated module.
+2. Implement `class Solution` method(s) in the generated module.
 3. Replace the placeholder test with real test cases.
 4. Run python -m pytest from repository root.

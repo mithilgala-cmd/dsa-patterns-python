@@ -1,98 +1,85 @@
-# DSA Patterns in Python (Placement Prep)
+# DSA Patterns in Python (Placement 2027)
 
-Structured DSA prep repo for coding interviews and campus placements (Python 3.11+).
+Python DSA prep repository aligned to Striver A2Z progression.
 
 ## Goal
-- Build fast pattern recognition for interview rounds.
-- Keep every solved problem test-backed and type-safe.
-- Revise on schedule using `problem_tracker.csv`.
+- Follow A2Z in order for interview readiness.
+- Keep every solved problem tested and type-safe.
+- Track completion in `problem_tracker.csv`.
 
-## Tech stack
-- `pytest` for correctness
-- `ruff` for linting/style
-- `mypy` for static typing
-- `pre-commit` for local quality gates
-- GitHub Actions (`.github/workflows/ci.yml`) for CI
+## Stack
+- `pytest`
+- `ruff`
+- `mypy`
+- `pre-commit`
+- GitHub Actions (`.github/workflows/ci.yml`)
 
 ## Quick start
 ```bash
 pip install -r requirements.txt
-python -m pytest
 python -m ruff check .
 python -m mypy .
+python -m pytest
 ```
 
-## Pattern status
-Solved:
-- Arrays: `two_sum.py`
-- Backtracking: `subsets.py`
-- Binary Search: `binary_search.py`
-- Bit Manipulation: `single_number.py`
-- Dynamic Programming: `climbing_stairs.py`, `zero_one_knapsack.py`
-- Graphs: `number_of_islands.py`
-- Greedy: `jump_game.py`
-- Hashing: `valid_anagram.py`
-- Heap: `kth_largest_element.py`
-- Intervals: `merge_intervals.py`
-- Linked List: `reverse_linked_list.py`
-- Math Geometry: `rotate_image.py`
-- Sliding Window: `best_time_to_buy_sell_stock.py`
-- Stack: `valid_parentheses.py`
-- Trees: `maximum_depth_binary_tree.py`
-- Trie: `implement_trie.py`
-- Two Pointers: `valid_palindrome.py`
+## Current solved snapshot
+- `basics/`: `count_digits.py`, `reverse_number.py`
+- `arrays/`: `two_sum.py`
+- `backtracking/`: `subsets.py`
+- `binary_search/`: `binary_search.py`
+- `bit_manipulation/`: `single_number.py`
+- `dynamic_programming/`: `climbing_stairs.py`, `zero_one_knapsack.py`
+- `graphs/`: `number_of_islands.py`
+- `greedy/`: `jump_game.py`
+- `hashing/`: `valid_anagram.py`
+- `heap/`: `kth_largest_element.py`
+- `intervals/`: `merge_intervals.py`
+- `linked_list/`: `reverse_linked_list.py`
+- `math_geometry/`: `rotate_image.py`
+- `sliding_window/`: `best_time_to_buy_sell_stock.py`
+- `stack/`: `valid_parentheses.py`
+- `trees/`: `maximum_depth_binary_tree.py`
+- `trie/`: `implement_trie.py`
+- `two_pointers/`: `valid_palindrome.py`
 
-Scaffolded (next to solve):
-- `recursion/`
-- `strings/`
-- `two_heaps/`
-- `union_find/`
+## A2Z order currently in use
+1. Step 1: `basics/`, `math/`, `recursion/`
+2. Step 2: `sorting/`
+3. Step 3: `arrays/`
+4. Step 4: `binary_search/`
+5. Step 5: `strings/`
+6. Step 6: `linked_list/`
+7. Step 7: `recursion/`
+8. Step 8: `bit_manipulation/`
+9. Step 9: `stack/`, `queue/`
+10. Step 10: `sliding_window/`, `two_pointers/`
+11. Step 11: `heap/`
+12. Step 12: `greedy/`
+13. Step 13: `trees/`
+14. Step 14: `bst/`
+15. Step 15: `graphs/`
+16. Step 16: `dynamic_programming/`
+17. Step 17: `trie/`
+18. Step 18: `strings/advanced/`
 
-## Priority next (Striver A2Z aligned)
-1. Dynamic Programming: `longest_common_subsequence`
-2. Graphs: `topological_sort`, `shortest_path_unweighted_bfs`
-3. Two Pointers: `three_sum`
-4. Linked List: reverse variants (`reverse_linked_list_ii`, `reverse_k_group`)
-5. Two Heaps: `find_median_from_data_stream`
-6. Union Find: `redundant_connection`
+## A2Z folder gaps (still to scaffold)
+- `math/`
+- `sorting/`
+- `queue/`
+- `bst/`
+- `strings/advanced/`
 
-## Standard solve workflow
-1. Create scaffold:
-   `python scripts/create_problem.py --pattern <pattern> --problem <problem_name>`
-2. Implement `class Solution:` in `<pattern>/<problem_name>.py`
-3. Add tests in `tests/<pattern>/test_<problem_name>.py`
-4. Run quality suite:
+## Standard solve flow
+1. Add problem in A2Z order.
+2. Implement under `<pattern>/<problem_name>.py`.
+3. Add tests under `tests/<pattern>/test_<problem_name>.py`.
+4. Run:
    ```bash
    python -m ruff check .
    python -m mypy .
    python -m pytest
    ```
-5. Update `problem_tracker.csv`
-6. Review due items:
-   `python scripts/revision_queue.py`
-
-## Definition of done (placement-ready)
-- Brute force approach documented (if different from optimal)
-- Optimal approach implemented with complexity docstring
-- Edge cases covered by pytest
-- `ruff`, `mypy`, `pytest` all pass
-- Problem logged in `problem_tracker.csv`
-
-## Repository layout
-```text
-<pattern>/
-  problem_name.py
-  README.md
-  __init__.py
-
-tests/<pattern>/
-  test_problem_name.py
-  __init__.py
-
-scripts/
-interview_notes/
-problem_tracker.csv
-```
+5. Append solved record in `problem_tracker.csv`.
 
 ## Revision notes
 - `interview_notes/pattern_quick_notes.md`

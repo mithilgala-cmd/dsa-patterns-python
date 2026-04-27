@@ -14,7 +14,7 @@ Coordinate two indices to reduce nested loops and scan efficiently.
 - Note extra memory trade-offs clearly in the solution docstring.
 
 ## Starter problems
-- [ ] Valid Palindrome
+- [x] Valid Palindrome
 - [ ] 3Sum
 - [ ] Container With Most Water
 
@@ -24,6 +24,6 @@ Coordinate two indices to reduce nested loops and scan efficiently.
 
 ## How to add a problem in this folder
 1. Run: python scripts/create_problem.py --pattern two_pointers --problem your_problem_name
-2. Implement Solution.solve() in the generated module.
+2. Implement `class Solution` method(s) in the generated module.
 3. Replace the placeholder test with real test cases.
 4. Run python -m pytest from repository root.

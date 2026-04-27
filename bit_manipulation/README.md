@@ -14,7 +14,7 @@ Use bitwise operations to optimize checks, counting, and state transitions.
 - Note extra memory trade-offs clearly in the solution docstring.
 
 ## Starter problems
-- [ ] Single Number
+- [x] Single Number
 - [ ] Number of 1 Bits
 - [ ] Counting Bits
 
@@ -24,6 +24,6 @@ Use bitwise operations to optimize checks, counting, and state transitions.
 
 ## How to add a problem in this folder
 1. Run: python scripts/create_problem.py --pattern bit_manipulation --problem your_problem_name
-2. Implement Solution.solve() in the generated module.
+2. Implement `class Solution` method(s) in the generated module.
 3. Replace the placeholder test with real test cases.
 4. Run python -m pytest from repository root.

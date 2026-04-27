@@ -14,7 +14,7 @@ LIFO structure for parsing, monotonic constraints, and undo-style logic.
 - Note extra memory trade-offs clearly in the solution docstring.
 
 ## Starter problems
-- [ ] Valid Parentheses
+- [x] Valid Parentheses
 - [ ] Min Stack
 - [ ] Daily Temperatures
 
@@ -24,6 +24,6 @@ LIFO structure for parsing, monotonic constraints, and undo-style logic.
 
 ## How to add a problem in this folder
 1. Run: python scripts/create_problem.py --pattern stack --problem your_problem_name
-2. Implement Solution.solve() in the generated module.
+2. Implement `class Solution` method(s) in the generated module.
 3. Replace the placeholder test with real test cases.
 4. Run python -m pytest from repository root.

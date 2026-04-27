@@ -14,7 +14,7 @@ Use hash maps/sets for constant-time lookup and counting.
 - Note extra memory trade-offs clearly in the solution docstring.
 
 ## Starter problems
-- [ ] Valid Anagram
+- [x] Valid Anagram
 - [ ] Two Sum
 - [ ] Group Anagrams
 
@@ -24,6 +24,6 @@ Use hash maps/sets for constant-time lookup and counting.
 
 ## How to add a problem in this folder
 1. Run: python scripts/create_problem.py --pattern hashing --problem your_problem_name
-2. Implement Solution.solve() in the generated module.
+2. Implement `class Solution` method(s) in the generated module.
 3. Replace the placeholder test with real test cases.
 4. Run python -m pytest from repository root.
