@@ -54,11 +54,15 @@ heap/
 intervals/
 linked_list/
 math_geometry/
+recursion/
 sliding_window/
 stack/
+strings/
 trees/
 trie/
+two_heaps/
 two_pointers/
+union_find/
 
 interview_notes/
 scripts/
@@ -81,11 +85,15 @@ Each pattern now has at least one solved starter problem with tests.
 - Intervals: `merge_intervals.py`
 - Linked List: `reverse_linked_list.py`
 - Math and Geometry: `rotate_image.py`
+- Recursion: folder scaffolded
 - Sliding Window: `best_time_to_buy_sell_stock.py`
 - Stack: `valid_parentheses.py`
+- Strings: folder scaffolded
 - Trees: `maximum_depth_binary_tree.py`
 - Trie: `implement_trie.py`
+- Two Heaps: folder scaffolded
 - Two Pointers: `valid_palindrome.py`
+- Union Find: folder scaffolded
 
 ## Placement notes
 - Fast revision notes: `interview_notes/pattern_quick_notes.md`

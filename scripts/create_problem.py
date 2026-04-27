@@ -18,11 +18,15 @@ VALID_PATTERNS = {
     "intervals",
     "linked_list",
     "math_geometry",
+    "recursion",
     "sliding_window",
     "stack",
+    "strings",
     "trees",
     "trie",
+    "two_heaps",
     "two_pointers",
+    "union_find",
 }
 
 

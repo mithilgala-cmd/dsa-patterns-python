@@ -14,13 +14,17 @@ src = [
   "intervals",
   "linked_list",
   "math_geometry",
+  "recursion",
   "scripts",
   "sliding_window",
   "stack",
+  "strings",
   "tests",
   "trees",
   "trie",
+  "two_heaps",
   "two_pointers",
+  "union_find",
 ]
 
 [tool.ruff.lint]
@@ -50,11 +54,15 @@ files = [
   "intervals",
   "linked_list",
   "math_geometry",
+  "recursion",
   "scripts",
   "sliding_window",
   "stack",
+  "strings",
   "tests",
   "trees",
   "trie",
+  "two_heaps",
   "two_pointers",
+  "union_find",
 ]
