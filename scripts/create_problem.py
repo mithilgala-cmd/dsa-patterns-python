@@ -6,6 +6,7 @@ import argparse
 from pathlib import Path
 
 VALID_PATTERNS = {
+    "basics",
     "arrays",
     "backtracking",
     "binary_search",
@@ -17,6 +18,7 @@ VALID_PATTERNS = {
     "heap",
     "intervals",
     "linked_list",
+    "math",
     "math_geometry",
     "recursion",
     "sliding_window",
@@ -73,13 +75,34 @@ def main() -> None:
         '        raise NotImplementedError("Implement solve()")\n'
     )
 
-    test_content = (
-        f"from {pattern}.{problem} import Solution\n\n\n"
-        f"def test_{problem}_placeholder() -> None:\n"
-        '    """Replace this with real test cases."""\n'
-        "    solution = Solution()\n"
-        '    assert hasattr(solution, "solve")\n'
-    )
+    if pattern == "math":
+        test_content = (
+            "from importlib.util import module_from_spec, spec_from_file_location\n"
+            "from pathlib import Path\n\n\n"
+            "def load_solution_class() -> type:\n"
+            "    module_path = (\n"
+            f'        Path(__file__).resolve().parents[2] / "{pattern}" / "{problem}.py"\n'
+            "    )\n"
+            f'    spec = spec_from_file_location("a2z_{pattern}_{problem}", module_path)\n'
+            "    if spec is None or spec.loader is None:\n"
+            '        raise ImportError(f"Unable to load module from {module_path}")\n'
+            "    module = module_from_spec(spec)\n"
+            "    spec.loader.exec_module(module)\n"
+            "    return module.Solution\n\n\n"
+            "Solution = load_solution_class()\n\n\n"
+            f"def test_{problem}_placeholder() -> None:\n"
+            '    """Replace this with real test cases."""\n'
+            "    solution = Solution()\n"
+            '    assert hasattr(solution, "solve")\n'
+        )
+    else:
+        test_content = (
+            f"from {pattern}.{problem} import Solution\n\n\n"
+            f"def test_{problem}_placeholder() -> None:\n"
+            '    """Replace this with real test cases."""\n'
+            "    solution = Solution()\n"
+            '    assert hasattr(solution, "solve")\n'
+        )
 
     write_if_missing(problem_path, module_content)
     write_if_missing(test_path, test_content)

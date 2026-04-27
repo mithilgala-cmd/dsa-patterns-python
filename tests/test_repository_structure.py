@@ -1,6 +1,7 @@
 from pathlib import Path
 
 PATTERNS = [
+    "basics",
     "arrays",
     "backtracking",
     "binary_search",
@@ -12,6 +13,7 @@ PATTERNS = [
     "heap",
     "intervals",
     "linked_list",
+    "math",
     "math_geometry",
     "recursion",
     "sliding_window",

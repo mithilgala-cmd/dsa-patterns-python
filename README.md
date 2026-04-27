@@ -24,6 +24,7 @@ python -m pytest
 
 ## Current solved snapshot
 - `basics/`: `count_digits.py`, `reverse_number.py`
+- `math/`: `palindrome_number.py`
 - `arrays/`: `two_sum.py`
 - `backtracking/`: `subsets.py`
 - `binary_search/`: `binary_search.py`
@@ -63,7 +64,6 @@ python -m pytest
 18. Step 18: `strings/advanced/`
 
 ## A2Z folder gaps (still to scaffold)
-- `math/`
 - `sorting/`
 - `queue/`
 - `bst/`
