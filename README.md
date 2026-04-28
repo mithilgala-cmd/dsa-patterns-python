@@ -82,6 +82,6 @@ python -m pytest
 5. Append solved record in `problem_tracker.csv`.
 
 ## Revision notes
-- `interview_notes/pattern_quick_notes.md`
-- `interview_notes/revision_system.md`
-- `interview_notes/mock_round_checklist.md`
+- `https://github.com/mithilgala-cmd/dsa-patterns-python/tree/main/interview_notes/pattern_quick_notes.md`
+- `https://github.com/mithilgala-cmd/dsa-patterns-python/tree/main/interview_notes/revision_system.md`
+- `https://github.com/mithilgala-cmd/dsa-patterns-python/tree/main/interview_notes/mock_round_checklist.md`
