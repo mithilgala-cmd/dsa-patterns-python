@@ -2,3 +2,4 @@ problem_id,pattern,problem_name,platform,difficulty,status,next_revision_date,la
 s1_basics_001,basics,count_digits,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 first problem
 s1_basics_002,basics,reverse_number,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 second problem
 s1_math_001,math,palindrome_number,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 math start
+s1_math_002,math,gcd_or_hcf,Striver A2Z,easy,solved,2026-05-06,2026-04-29,Step 1 math second problem

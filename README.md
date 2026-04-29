@@ -24,7 +24,7 @@ python -m pytest
 
 ## Current solved snapshot
 - `basics/`: `count_digits.py`, `reverse_number.py`
-- `math/`: `palindrome_number.py`
+- `math/`: `palindrome_number.py`, `gcd_or_hcf.py`
 - `arrays/`: `two_sum.py`
 - `backtracking/`: `subsets.py`
 - `binary_search/`: `binary_search.py`
