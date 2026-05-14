@@ -86,3 +86,21 @@ Use this as a fast revision sheet before interviews.
 - Look for invariant or formula before brute force.
 - Avoid floating-point error when integer arithmetic works.
 - For matrix problems, test odd and even dimensions.
+
+## ?? Magic Spells (Python DSA Tricks)
+
+| Goal | Magic Spell | Why? |
+| :--- | :--- | :--- |
+| Fast Frequency | `collections.Counter(arr)` | One-liner for counts. |
+| Grouping | `collections.defaultdict(list)` | No more `if key not in d` checks. |
+| Monotonic Stack | `while stack and stack[-1] < curr: stack.pop()` | Standard template for NGE. |
+| Binary Search | `bisect.bisect_left(arr, x)` | Built-in binary search. |
+| Heapify | `heapq.heapify(arr)` | O(N) conversion to min-heap. |
+| Max Heap | `heapq.heappush(heap, -x)` | Negate values for max-heap behavior. |
+| Power Set | `itertools.combinations(arr, r)` | Generate subsets easily. |
+| Deep Copy | `copy.deepcopy(obj)` | Avoid pointer issues in recursion. |
+| Matrix Transpose | `list(zip(*matrix))` | Elegant matrix rotation/transpose. |
+| Bits: Is Power of 2 | `n > 0 and (n & (n - 1) == 0)` | Classic bitwise trick. |
+
+---
+*Pro-Tip: Always mention Time/Space complexity during the coding round before writing the first line of code.*

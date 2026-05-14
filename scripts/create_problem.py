@@ -11,6 +11,7 @@ VALID_PATTERNS = {
     "backtracking",
     "binary_search",
     "bit_manipulation",
+    "bst",
     "dynamic_programming",
     "graphs",
     "greedy",
@@ -20,8 +21,10 @@ VALID_PATTERNS = {
     "linked_list",
     "math",
     "math_geometry",
+    "queues",
     "recursion",
     "sliding_window",
+    "sorting",
     "stack",
     "strings",
     "trees",
@@ -71,7 +74,11 @@ def main() -> None:
         "from typing import Any\n\n\n"
         "class Solution:\n"
         "    def solve(self, *args: Any, **kwargs: Any) -> Any:\n"
-        '        """Describe the problem and complexity here."""\n'
+        '        """\n'
+        "        Problem: [Add Problem Link/Description]\n\n"
+        "        Time Complexity: O(?)\n"
+        "        Space Complexity: O(?)\n"
+        '        """\n'
         '        raise NotImplementedError("Implement solve()")\n'
     )
 

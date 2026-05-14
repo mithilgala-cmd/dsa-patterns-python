@@ -1,5 +1,27 @@
 problem_id,pattern,problem_name,platform,difficulty,status,next_revision_date,last_solved_date,notes
+scanned_arrays_two_sum,arrays,two_sum,LocalScan,TBD,solved,,,Auto-detected
+scanned_backtracking_subsets,backtracking,subsets,LocalScan,TBD,solved,,,Auto-detected
 s1_basics_001,basics,count_digits,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 first problem
 s1_basics_002,basics,reverse_number,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 second problem
-s1_math_001,math,palindrome_number,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 math start
+scanned_binary_search_binary_search,binary_search,binary_search,LocalScan,TBD,solved,,,Auto-detected
+scanned_bit_manipulation_single_number,bit_manipulation,single_number,LocalScan,TBD,solved,,,Auto-detected
+scanned_dynamic_programming_climbing_stairs,dynamic_programming,climbing_stairs,LocalScan,TBD,solved,,,Auto-detected
+scanned_dynamic_programming_zero_one_knapsack,dynamic_programming,zero_one_knapsack,LocalScan,TBD,solved,,,Auto-detected
+scanned_graphs_number_of_islands,graphs,number_of_islands,LocalScan,TBD,solved,,,Auto-detected
+scanned_greedy_jump_game,greedy,jump_game,LocalScan,TBD,solved,,,Auto-detected
+scanned_hashing_valid_anagram,hashing,valid_anagram,LocalScan,TBD,solved,,,Auto-detected
+scanned_heap_kth_largest_element,heap,kth_largest_element,LocalScan,TBD,solved,,,Auto-detected
+scanned_intervals_merge_intervals,intervals,merge_intervals,LocalScan,TBD,solved,,,Auto-detected
+scanned_linked_list_reverse_linked_list,linked_list,reverse_linked_list,LocalScan,TBD,solved,,,Auto-detected
 s1_math_002,math,gcd_or_hcf,Striver A2Z,easy,solved,2026-05-06,2026-04-29,Step 1 math second problem
+s1_math_001,math,palindrome_number,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 math start
+scanned_math_geometry_rotate_image,math_geometry,rotate_image,LocalScan,TBD,solved,,,Auto-detected
+scanned_recursion_factorial,recursion,factorial,LocalScan,TBD,solved,,,Auto-detected
+scanned_recursion_fibonacci,recursion,fibonacci,LocalScan,TBD,solved,,,Auto-detected
+scanned_sliding_window_best_time_to_buy_sell_stock,sliding_window,best_time_to_buy_sell_stock,LocalScan,TBD,solved,,,Auto-detected
+scanned_sorting_bubble_sort,sorting,bubble_sort,LocalScan,TBD,solved,,,Auto-detected
+scanned_sorting_selection_sort,sorting,selection_sort,LocalScan,TBD,solved,,,Auto-detected
+scanned_stack_valid_parentheses,stack,valid_parentheses,LocalScan,TBD,solved,,,Auto-detected
+scanned_trees_maximum_depth_binary_tree,trees,maximum_depth_binary_tree,LocalScan,TBD,solved,,,Auto-detected
+scanned_trie_implement_trie,trie,implement_trie,LocalScan,TBD,solved,,,Auto-detected
+scanned_two_pointers_valid_palindrome,two_pointers,valid_palindrome,LocalScan,TBD,solved,,,Auto-detected

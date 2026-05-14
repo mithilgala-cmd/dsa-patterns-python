@@ -11,6 +11,12 @@ class ListNode:
 
 class Solution:
     def reverse_list(self, head: ListNode | None) -> ListNode | None:
+        """
+        Reverse a singly linked list.
+        
+        Time Complexity: O(n)
+        Space Complexity: O(1)
+        """
         previous: ListNode | None = None
         current = head
 
