@@ -1,4 +1,8 @@
 problem_id,pattern,problem_name,platform,difficulty,status,next_revision_date,last_solved_date,notes
+scanned_arrays_check_sorted,arrays,check_sorted,LocalScan,TBD,solved,,,Auto-detected
+scanned_arrays_largest_element,arrays,largest_element,LocalScan,TBD,solved,,,Auto-detected
+scanned_arrays_remove_duplicates,arrays,remove_duplicates,LocalScan,TBD,solved,,,Auto-detected
+scanned_arrays_second_largest,arrays,second_largest,LocalScan,TBD,solved,,,Auto-detected
 scanned_arrays_two_sum,arrays,two_sum,LocalScan,TBD,solved,,,Auto-detected
 scanned_backtracking_subsets,backtracking,subsets,LocalScan,TBD,solved,,,Auto-detected
 s1_basics_001,basics,count_digits,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 first problem
@@ -13,13 +17,19 @@ scanned_hashing_valid_anagram,hashing,valid_anagram,LocalScan,TBD,solved,,,Auto-
 scanned_heap_kth_largest_element,heap,kth_largest_element,LocalScan,TBD,solved,,,Auto-detected
 scanned_intervals_merge_intervals,intervals,merge_intervals,LocalScan,TBD,solved,,,Auto-detected
 scanned_linked_list_reverse_linked_list,linked_list,reverse_linked_list,LocalScan,TBD,solved,,,Auto-detected
+scanned_math_armstrong_number,math,armstrong_number,LocalScan,TBD,solved,,,Auto-detected
+scanned_math_check_prime,math,check_prime,LocalScan,TBD,solved,,,Auto-detected
 s1_math_002,math,gcd_or_hcf,Striver A2Z,easy,solved,2026-05-06,2026-04-29,Step 1 math second problem
 s1_math_001,math,palindrome_number,Striver A2Z,easy,solved,2026-05-04,2026-04-27,Step 1 math start
+scanned_math_print_divisors,math,print_divisors,LocalScan,TBD,solved,,,Auto-detected
 scanned_math_geometry_rotate_image,math_geometry,rotate_image,LocalScan,TBD,solved,,,Auto-detected
 scanned_recursion_factorial,recursion,factorial,LocalScan,TBD,solved,,,Auto-detected
 scanned_recursion_fibonacci,recursion,fibonacci,LocalScan,TBD,solved,,,Auto-detected
 scanned_sliding_window_best_time_to_buy_sell_stock,sliding_window,best_time_to_buy_sell_stock,LocalScan,TBD,solved,,,Auto-detected
 scanned_sorting_bubble_sort,sorting,bubble_sort,LocalScan,TBD,solved,,,Auto-detected
+scanned_sorting_insertion_sort,sorting,insertion_sort,LocalScan,TBD,solved,,,Auto-detected
+scanned_sorting_merge_sort,sorting,merge_sort,LocalScan,TBD,solved,,,Auto-detected
+scanned_sorting_quick_sort,sorting,quick_sort,LocalScan,TBD,solved,,,Auto-detected
 scanned_sorting_selection_sort,sorting,selection_sort,LocalScan,TBD,solved,,,Auto-detected
 scanned_stack_valid_parentheses,stack,valid_parentheses,LocalScan,TBD,solved,,,Auto-detected
 scanned_trees_maximum_depth_binary_tree,trees,maximum_depth_binary_tree,LocalScan,TBD,solved,,,Auto-detected

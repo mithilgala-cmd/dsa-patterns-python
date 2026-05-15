@@ -1,8 +1,17 @@
 import pytest
 from sorting.selection_sort import Solution as SelectionSort
 from sorting.bubble_sort import Solution as BubbleSort
+from sorting.insertion_sort import Solution as InsertionSort
+from sorting.merge_sort import Solution as MergeSort
+from sorting.quick_sort import Solution as QuickSort
 
-@pytest.mark.parametrize("solution_class", [SelectionSort, BubbleSort])
+@pytest.mark.parametrize("solution_class", [
+    SelectionSort, 
+    BubbleSort, 
+    InsertionSort, 
+    MergeSort, 
+    QuickSort
+])
 def test_sorting_algorithms(solution_class):
     solution = solution_class()
     

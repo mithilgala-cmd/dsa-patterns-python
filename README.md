@@ -10,11 +10,11 @@ A professional collection of Data Structures and Algorithms patterns implemented
 <!-- DASHBOARD_START -->
 ## 📊 Progress Dashboard
 
-**Total Problems Solved:** `26`
+**Total Problems Solved:** `36`
 
-- **Step 1: Basics**: `6` solved
-- **Step 2: Sorting**: `2` solved
-- **Step 3: Arrays**: `1` solved
+- **Step 1: Basics**: `9` solved
+- **Step 2: Sorting**: `5` solved
+- **Step 3: Arrays**: `5` solved
 - **Step 4: Binary Search**: `1` solved
 - **Step 5: Strings**: `0` solved
 - **Step 6: Linked List**: `1` solved
@@ -79,7 +79,7 @@ python -m pytest
 <!-- SNAPSHOT_START -->
 ## 📂 Solved Problems Snapshot
 
-- **`arrays/`**: `two_sum.py`
+- **`arrays/`**: `check_sorted.py`, `largest_element.py`, `remove_duplicates.py`, `second_largest.py`, `two_sum.py`
 - **`backtracking/`**: `subsets.py`
 - **`basics/`**: `count_digits.py`, `reverse_number.py`
 - **`binary_search/`**: `binary_search.py`
@@ -91,11 +91,11 @@ python -m pytest
 - **`heap/`**: `kth_largest_element.py`
 - **`intervals/`**: `merge_intervals.py`
 - **`linked_list/`**: `reverse_linked_list.py`
-- **`math/`**: `gcd_or_hcf.py`, `palindrome_number.py`
+- **`math/`**: `armstrong_number.py`, `check_prime.py`, `gcd_or_hcf.py`, `palindrome_number.py`, `print_divisors.py`
 - **`math_geometry/`**: `rotate_image.py`
 - **`recursion/`**: `factorial.py`, `fibonacci.py`
 - **`sliding_window/`**: `best_time_to_buy_sell_stock.py`
-- **`sorting/`**: `bubble_sort.py`, `selection_sort.py`
+- **`sorting/`**: `bubble_sort.py`, `insertion_sort.py`, `merge_sort.py`, `quick_sort.py`, `selection_sort.py`
 - **`stack/`**: `valid_parentheses.py`
 - **`trees/`**: `maximum_depth_binary_tree.py`
 - **`trie/`**: `implement_trie.py`
