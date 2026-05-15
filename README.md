@@ -76,6 +76,19 @@ python -m mypy .
 python -m pytest
 ```
 
+## 🏗️ Project Architecture
+The repository is designed with a **Separation of Concerns** (SoC) principle:
+- **Patterns Layer**: Organized by algorithmic logic (Arrays, DP, Graphs).
+- **Quality Layer**: Decoupled tests in `tests/` ensuring 100% logic coverage.
+- **Automation Layer**: Custom Python tooling in `scripts/` for scaffolding and dynamic progress reporting.
+- **Traceability Layer**: `problem_tracker.csv` acts as a single source of truth for problem metadata.
+
+## 🛠️ Developer Experience (DX)
+We treat this DSA practice as a real production codebase:
+- **Scaffolding**: `create_problem.py` ensures all new problems follow the same standard.
+- **Auto-Sync**: `generate_readme.py` automatically updates the dashboard below based on file discovery.
+- **Consistency**: Enforcement of `ruff` and `mypy` in CI/CD via GitHub Actions.
+
 <!-- SNAPSHOT_START -->
 ## 📂 Solved Problems Snapshot
 
