@@ -1,6 +1,7 @@
 problem_id,pattern,problem_name,platform,difficulty,status,next_revision_date,last_solved_date,notes
 scanned_arrays_check_sorted,arrays,check_sorted,LocalScan,TBD,solved,,,Auto-detected
 scanned_arrays_largest_element,arrays,largest_element,LocalScan,TBD,solved,,,Auto-detected
+scanned_arrays_left_rotate_by_one,arrays,left_rotate_by_one,LocalScan,TBD,solved,,,Auto-detected
 scanned_arrays_remove_duplicates,arrays,remove_duplicates,LocalScan,TBD,solved,,,Auto-detected
 scanned_arrays_second_largest,arrays,second_largest,LocalScan,TBD,solved,,,Auto-detected
 scanned_arrays_two_sum,arrays,two_sum,LocalScan,TBD,solved,,,Auto-detected
