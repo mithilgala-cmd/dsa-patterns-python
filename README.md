@@ -10,11 +10,11 @@ A professional collection of Data Structures and Algorithms patterns implemented
 <!-- DASHBOARD_START -->
 ## 📊 Progress Dashboard
 
-**Total Problems Solved:** `43`
+**Total Problems Solved:** `47`
 
 - **Step 1: Basics**: `9` solved
 - **Step 2: Sorting**: `5` solved
-- **Step 3: Arrays**: `12` solved
+- **Step 3: Arrays**: `16` solved
 - **Step 4: Binary Search**: `1` solved
 - **Step 5: Strings**: `0` solved
 - **Step 6: Linked List**: `1` solved
@@ -92,7 +92,7 @@ We treat this DSA practice as a real production codebase:
 <!-- SNAPSHOT_START -->
 ## 📂 Solved Problems Snapshot
 
-- **`arrays/`**: `check_sorted.py`, `largest_element.py`, `left_rotate_by_d.py`, `left_rotate_by_one.py`, `linear_search.py`, `max_consecutive_ones.py`, `missing_number.py`, `move_zeroes.py`, `remove_duplicates.py`, `second_largest.py`, `two_sum.py`, `union_of_sorted_arrays.py`
+- **`arrays/`**: `check_sorted.py`, `kadanes_algorithm.py`, `largest_element.py`, `left_rotate_by_d.py`, `left_rotate_by_one.py`, `linear_search.py`, `majority_element.py`, `max_consecutive_ones.py`, `missing_number.py`, `move_zeroes.py`, `rearrange_by_sign.py`, `remove_duplicates.py`, `second_largest.py`, `sort_012.py`, `two_sum.py`, `union_of_sorted_arrays.py`
 - **`backtracking/`**: `subsets.py`
 - **`basics/`**: `count_digits.py`, `reverse_number.py`
 - **`binary_search/`**: `binary_search.py`
